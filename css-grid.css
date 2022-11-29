@@ -1,0 +1,19 @@
+#outer-container {
+    color: white;
+    column-gap: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 250px auto 250px; /* header/main/footer example */
+}
+
+#header {
+    background-color: fuchsia;
+}
+
+#main {
+    background-color: lime;
+}
+
+#footer {
+    background-color: blue;
+}

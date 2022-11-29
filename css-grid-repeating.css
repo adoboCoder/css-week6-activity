@@ -1,0 +1,11 @@
+#repeating-rows {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); /* 3 equally sized columns forever */
+    grid-template-rows: repeat(auto, 100px); /* 100px rows forever */
+}
+
+.column-style {
+    background-color: fuchsia;
+    color: white;
+    text-align: center;
+}
